@@ -1,0 +1,49 @@
+.heading {
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: $font-light-gray;
+    background-color: $color-dark-gray;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    max-width: 100vw;
+    
+    &__nav {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+            margin-right: 60px;
+        }
+
+        li::after {
+            display: block;
+            content: attr(title);
+            font-weight: bold;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+        }
+    }
+
+    .user-panel {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 280px;
+
+        &__user-initial {
+            background-color: $color-light-gray;
+            display: flex;
+            padding: 5px 11px;
+            border-radius: 50%;
+            font-weight: 500;
+            font-size: 1.3rem;
+        }
+    }
+}
+
