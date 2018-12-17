@@ -1,7 +1,6 @@
 .UserToolbar {
-    font-family: Roboto, sans-serif;
     background-color: $color-medium-gray;
-    height: 100px;
+    height: 90px;
     display: flex;
     align-items: center;
     color: $font-dark-gray;
@@ -19,8 +18,8 @@
         &--option {
             align-items: center;
             flex-direction: column;
+            justify-content: center;
             text-align: center; 
-            margin: 0 20px;
             
             i {
                 font-size: 2rem;
@@ -33,14 +32,21 @@
 
         &--header {
             color: $font-medium-gray;
-            word-spacing: 5px;
+            word-spacing: 7px;
             font-size: 1.25rem;
             font-weight: 500;
-            padding: 0 50px;
+            padding: 0 40px;
         }
         
         &--empty {
-            width: 260px;
+            width: 330px;
+        }
+
+        &.options-container {
+            min-width: 370px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }

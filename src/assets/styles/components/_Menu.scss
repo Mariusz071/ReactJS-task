@@ -1,0 +1,52 @@
+.Menu {
+    height: 200px;
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: $color-dark-light-gray;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 87px 16px rgba(28,28,28,1);
+    
+    &__nav {
+        min-width: 100%;
+        height: 50px;
+        padding: 0 420px 0 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        text-align: left;
+        font-size: 1.25rem;
+        font-weight: 300;
+        border-bottom: 1px solid $color-dark-gray;
+        
+        li.active {
+            position: relative;
+        }
+
+        li.active::after{
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 1px;
+            top: 35px;
+            left: 25%;
+            border-bottom: 4px solid $font-orange;
+        }
+    }
+
+    &__dropdown-wrapper {
+        padding: 0 60px;
+        flex: 1;
+
+        i {
+            font-size: 2.25rem;
+        }
+
+        p.active {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+}
