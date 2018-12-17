@@ -19,10 +19,7 @@ const theme = createMuiTheme({
   });
 
 export default  class UserToolbar extends Component {
-
     render() {
-        
-
         return (
             <MuiThemeProvider theme={theme}>
                 <nav className='UserToolbar'>
@@ -41,13 +38,13 @@ export default  class UserToolbar extends Component {
                     <div className='UserToolbar__item'>
                         <div className='UserToolbar__item--empty'></div>
                     </div>
-                    <div className='UserToolbar__item'>
-                        <div className='UserToolbar__item--option'>
+                    <div className='UserToolbar__item options-container'>
+                        <button className='UserToolbar__item--option'>
                             <i className="material-icons">
                                 delete
                             </i>
                             <p>Archieto</p> 
-                        </div>
+                        </button>
                         <div className='UserToolbar__item--option'>
                             <Switch color="default" />
                             <p className='UserToolbar__item--option__label'>Aperiam</p>
@@ -56,12 +53,12 @@ export default  class UserToolbar extends Component {
                             <Switch defaultChecked  color="default" />
                             <p className='UserToolbar__item--option__label'>Totam</p>
                         </div>
-                        <div className='UserToolbar__item--option'>
-                        <i className="material-icons">
-                            email
-                        </i>
-                        <p>Rem</p> 
-                        </div>
+                        <button className='UserToolbar__item--option'>
+                            <i className="material-icons">
+                                email
+                            </i>
+                            <p>Rem</p> 
+                        </button>
                     </div>
                 </nav>
             </MuiThemeProvider>

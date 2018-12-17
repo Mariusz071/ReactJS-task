@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Articles from './Articles';
+import Menu from './Menu';
 
 export default class MainContainer extends Component {
     render() {
@@ -13,11 +14,13 @@ export default class MainContainer extends Component {
                         </i>
                             <h1 className='active'>CSed ur perspiciatis unde</h1>
                         </div>
-                        <h3>Sed ur perspiciatis unde omnis iste natus error sit voluptaten accusantium dolormque laundantium, totam rem aperiam,
+                        <h3>
+                            Sed ur perspiciatis unde omnis iste natus error sit voluptaten accusantium dolormque laundantium, totam rem aperiam,
                             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                         </h3>
                     </div>
                     <Articles/>
+                    <Menu/>
                 </div>
             </main>
         )
