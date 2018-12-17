@@ -10,7 +10,8 @@
 
 # production
 /build
-package-lock.json
+/package-lock.json
+/.idea
 
 # misc
 .DS_Store
