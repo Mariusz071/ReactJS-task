@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import UserToolbar from './UserToolbar';
+import MainContainer from './MainContainer';
 
 
 export default class Page extends Component {
@@ -7,6 +8,7 @@ export default class Page extends Component {
     return (
          <div>
             <UserToolbar/>
+            <MainContainer/>
         </div>
     );
   }
