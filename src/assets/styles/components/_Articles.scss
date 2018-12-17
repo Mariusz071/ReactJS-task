@@ -1,0 +1,25 @@
+.Articles {
+    margin-top: 5rem;
+    font-size: 1.25rem;
+
+    &__row {
+        display: flex;
+        min-width: 70%;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-right: 13rem;
+            min-height: 100%;
+            margin-bottom: 2.75rem;
+
+            p {
+                line-height: 1.75;
+                vertical-align: baseline;
+                
+            }
+            
+        }
+    }
+}
