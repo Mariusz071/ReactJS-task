@@ -19,8 +19,8 @@ export default class MainBar extends Component {
 
   render() {
     return (
-      <div className='heading'>
-        <div>
+      <header className='heading'>
+        <nav>
           <ul className='heading__nav'>
             <li title='Iste Natus'className={this.state.activeIndex == 0 ? 'active': null} onClick={this.toggleActive.bind(this, 0)}><Link to='/routerlinkexample'>Iste Natus</Link></li>
             <li title='Explicabo' className={this.state.activeIndex == 1 ? 'active': null} onClick={this.toggleActive.bind(this, 1)}><Link to='/routerlinkexample'>Explicabo</Link></li>
@@ -28,7 +28,7 @@ export default class MainBar extends Component {
             <li title='Ipa quae' className={this.state.activeIndex == 3 ? 'active': null} onClick={this.toggleActive.bind(this, 3)}><Link to='/routerlinkexample'>Ipa quae</Link></li>
             <li title='Perspiciatis Unde' className={this.state.activeIndex == 4 ? 'active': null} onClick={this.toggleActive.bind(this, 4)}><Link to='/routerlinkexample'>Perspiciatis Unde</Link></li>
           </ul>
-        </div>
+        </nav>
         <div className = 'user-panel'>
           <div className='user-panel__dropdown-menu'>
             <p>
@@ -43,8 +43,7 @@ export default class MainBar extends Component {
             <span>Z</span>
           </div>
         </div>
-      </div>
+      </header>
     )
   }
 }
-

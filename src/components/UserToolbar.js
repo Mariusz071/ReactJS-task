@@ -25,7 +25,7 @@ export default  class UserToolbar extends Component {
 
         return (
             <MuiThemeProvider theme={theme}>
-                <div className='UserToolbar'>
+                <nav className='UserToolbar'>
                     <div className='UserToolbar__item'>
                         <p className='text-highlight'>Sunt</p>
                     </div>
@@ -63,7 +63,7 @@ export default  class UserToolbar extends Component {
                         <p>Rem</p> 
                         </div>
                     </div>
-                </div>
+                </nav>
             </MuiThemeProvider>
         )
     }
