@@ -1,13 +1,13 @@
 {
-  "main.css": "/Mariusz071/ReactJS-task/static/css/main.e1e5e0a3.chunk.css",
-  "main.js": "/Mariusz071/ReactJS-task/static/js/main.c301a941.chunk.js",
-  "main.js.map": "/Mariusz071/ReactJS-task/static/js/main.c301a941.chunk.js.map",
-  "static/js/1.85f5bb33.chunk.js": "/Mariusz071/ReactJS-task/static/js/1.85f5bb33.chunk.js",
-  "static/js/1.85f5bb33.chunk.js.map": "/Mariusz071/ReactJS-task/static/js/1.85f5bb33.chunk.js.map",
-  "runtime~main.js": "/Mariusz071/ReactJS-task/static/js/runtime~main.468e0d88.js",
-  "runtime~main.js.map": "/Mariusz071/ReactJS-task/static/js/runtime~main.468e0d88.js.map",
-  "static/css/main.e1e5e0a3.chunk.css.map": "/Mariusz071/ReactJS-task/static/css/main.e1e5e0a3.chunk.css.map",
-  "index.html": "/Mariusz071/ReactJS-task/index.html",
-  "precache-manifest.eb86bb02a322d818dc528e5fdf918a5c.js": "/Mariusz071/ReactJS-task/precache-manifest.eb86bb02a322d818dc528e5fdf918a5c.js",
-  "service-worker.js": "/Mariusz071/ReactJS-task/service-worker.js"
+  "main.css": "/ReactJS-task/static/css/main.e1e5e0a3.chunk.css",
+  "main.js": "/ReactJS-task/static/js/main.c301a941.chunk.js",
+  "main.js.map": "/ReactJS-task/static/js/main.c301a941.chunk.js.map",
+  "static/js/1.85f5bb33.chunk.js": "/ReactJS-task/static/js/1.85f5bb33.chunk.js",
+  "static/js/1.85f5bb33.chunk.js.map": "/ReactJS-task/static/js/1.85f5bb33.chunk.js.map",
+  "runtime~main.js": "/ReactJS-task/static/js/runtime~main.fe6d60d0.js",
+  "runtime~main.js.map": "/ReactJS-task/static/js/runtime~main.fe6d60d0.js.map",
+  "static/css/main.e1e5e0a3.chunk.css.map": "/ReactJS-task/static/css/main.e1e5e0a3.chunk.css.map",
+  "index.html": "/ReactJS-task/index.html",
+  "precache-manifest.43eb0cdd7e0e32bdebd319dcea8ec480.js": "/ReactJS-task/precache-manifest.43eb0cdd7e0e32bdebd319dcea8ec480.js",
+  "service-worker.js": "/ReactJS-task/service-worker.js"
 }
