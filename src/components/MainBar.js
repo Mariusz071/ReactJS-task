@@ -30,8 +30,13 @@ export default class MainBar extends Component {
           </ul>
         </div>
         <div className = 'user-panel'>
-          <div className='dropdown-menu'>
-            <p>Veris Veritatis <i className="fas fa-angle-down"></i></p>
+          <div className='user-panel__dropdown-menu'>
+            <p>
+              Veris Veritatis 
+            </p>
+            <i className="material-icons">
+                expand_more
+              </i>
           </div>
 
           <div className='user-panel__user-initial'>

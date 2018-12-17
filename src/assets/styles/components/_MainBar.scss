@@ -36,6 +36,10 @@
         justify-content: space-between;
         width: 280px;
 
+        &__dropdown-menu {
+            display: flex;
+        }
+
         &__user-initial {
             background-color: $color-light-gray;
             display: flex;
