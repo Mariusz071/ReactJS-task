@@ -1,7 +1,26 @@
-button {
+.btn {
     transition: all .2s;
 
     &:hover {
         color: $font-orange;
     }
+
+    &--link:hover {
+        font-weight: 500;
+    }
+
+    &--menu {
+        position: relative;
+    }
+
+    &--menu:hover::after {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        top: 35px;
+        left: 25%;
+        border-bottom: 4px solid $font-orange;
+    }
 }
+
