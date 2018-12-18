@@ -39,7 +39,7 @@ export default  class UserToolbar extends Component {
                         <div className='UserToolbar__item--empty'></div>
                     </div>
                     <div className='UserToolbar__item options-container'>
-                        <button className='UserToolbar__item--option'>
+                        <button className='UserToolbar__item--option btn btn--icon'>
                             <i className="material-icons">
                                 delete
                             </i>
@@ -53,7 +53,7 @@ export default  class UserToolbar extends Component {
                             <Switch defaultChecked  color="default" />
                             <p className='UserToolbar__item--option__label'>Totam</p>
                         </div>
-                        <button className='UserToolbar__item--option'>
+                        <button className='UserToolbar__item--option btn btn--icon'>
                             <i className="material-icons">
                                 email
                             </i>

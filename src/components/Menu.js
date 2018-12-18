@@ -6,9 +6,9 @@ export default class Menu extends Component {
         return (
             <div className='Menu'>
                 <ul className='Menu__nav'>
-                    <li className='text-highlight'><button>Perspiciatgis Unde</button></li>
-                    <li className='active'><button>Accusantium doloremque laudant</button></li>
-                    <li><button>Voluptaten (duvrnem)</button></li>
+                    <li className='text-highlight'><button className='btn btn--menu'>Perspiciatgis Unde</button></li>
+                    <li className='active'><button className='btn btn--menu'>Accusantium doloremque laudant</button></li>
+                    <li><button className='btn btn--menu'>Voluptaten (duvrnem)</button></li>
                 </ul>
                 <div className='Menu__dropdown-wrapper'>
                     <p className='text-highlight'>Iste Natus</p>
