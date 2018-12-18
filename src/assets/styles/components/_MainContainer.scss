@@ -10,11 +10,22 @@
                         rgba(32,32,32,1) 10%,
                         rgba(33,33,33,1) 12%,
                         rgba(34,34,34,1) 14%));
+    @media (max-width: 1700px) {
+        padding: 50px 120px;
+    }
+
     &__header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         min-height: 115px;
+        @media (max-width: 1650px) {
+            min-height: 150px;
+        }
+
+        @media (max-width: 1310px) {
+            min-height: 180px;
+        }
 
         & h1.active {
             font-weight: 400;

@@ -14,12 +14,18 @@
         padding: 0 20px;
         font-size: 1.2em;
         font-weight: 400;
+        @media (max-width: 1650px) {
+            padding: 0 10px;
+        }
 
         &--option {
             align-items: center;
             flex-direction: column;
             justify-content: center;
             text-align: center; 
+            @media (max-width: 1300px) {
+                font-size: 1rem;
+            }
             
             i {
                 font-size: 2rem;
@@ -36,10 +42,23 @@
             font-size: 1.25rem;
             font-weight: 500;
             padding: 0 40px;
+            @media (max-width: 1650px) {
+                padding: 0 20px;
+                word-spacing: 2px;
+                font-size: 1rem;
+            }
         }
         
         &--empty {
             width: 330px;
+            @media (max-width: 1650px) {
+                width: 200px;
+            }
+
+            @media (max-width: 1300px) {
+                width: 100px;
+            }
+
         }
 
         &.options-container {

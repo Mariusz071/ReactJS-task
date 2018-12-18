@@ -16,6 +16,9 @@
         li {
             display: inline-block;
             margin-right: 60px;
+            @media (max-width: 1060px) {
+                margin-right: 20px;
+            }
         }
 
         li::after {
