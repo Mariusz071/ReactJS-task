@@ -11,7 +11,15 @@ Tools used:
 - React dev tools Chrome extension
 - Pixel perfect Chrome extension
 
-To run project locally clone this repo, open cloned folder into terminal and hit 'npm run start'.
+To run project locally:
+
+Open your terminal and then type in:
+- git clone https://github.com/Mariusz071/ReactJS-task.git
+- cd ReactJS-task.git
+- npm i
+- npm run
+
+Then new browser tab will open with project running.
 
 GitPages link:
 https://mariusz071.github.io/ReactJS-task/.
